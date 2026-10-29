@@ -1,0 +1,138 @@
+.header{
+    margin: 150px auto 30px;
+    text-align: center;
+    max-width:800px;
+}
+.header h1{
+    font-size: 40px;
+    padding:12px;
+    color:#77412b;
+}
+.header p{
+    font-size:20px;
+    color:rgb(87, 87, 79)
+}
+.herosection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    
+}
+.herosection-image img{
+    width:100%;
+    border-radius: 18px;
+}
+.herosection-content{
+    width:100%;
+}
+.herosection-content h2{
+    color:#4d2a1c;
+    
+}
+.herosection-content p{
+    padding:12px 0;
+    font-size: 18px;
+    color: rgb(87, 85, 85)
+}
+.herosection-content .btn1{
+    border:none;
+    background-color: #A05B40;
+    padding:12px 36px;
+    border-radius: 8px;
+    margin: 12px;    
+}
+.herosection-content a{
+    text-decoration: none;
+    color: white;
+}
+.herosection-content .btn1:hover{
+     background-color: #77412b;
+}
+.herosection-content .btn2{
+    border:none;
+    background-color: #dba38e;
+    color: white;
+    padding:12px 36px;
+    border-radius: 8px;
+    margin: 12px;
+}
+.herosection-content .btn2:hover{
+     background-color: rgb(190, 136, 115);
+}
+.brand-quote{
+    background-color: #d8a5927b;
+    padding:40px;
+    border-radius: 12px;
+}
+.brand-quote .p1{
+    font-family:"Satisfy";
+    max-width:700px;
+    font-size: 30px;
+    margin:auto
+}
+.brand-quote .p2{
+    text-align: center;
+}
+.pillar{
+    margin:100px 0;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.406);
+    font-family: 'Redaction';
+    font-size:20px;
+}
+.pillar .pillar-content{
+    padding: 20px 0;
+}
+.pillar-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+.pillar-card {
+    background-color: white; 
+    padding: 20px;
+    border-radius: 18px;
+    border: 1px solid #f0e5de;
+    transition: transform 0.25s ease,box-shadow 0.25s ease;
+}
+
+.pillar-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 28px #7523030d;
+}
+
+.pillar-card .head{
+    display:flex;
+    justify-content: space-between;
+}
+.pillar-card .num{
+    color:#f3ad93;
+    transition: color 0.3s ease; 
+}
+.pillar-card:hover .num{
+    color:#4d2a1c;
+}
+.pillar-card .pillar-icon{
+    color:#4d2a1c;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #f0c1b08b;
+}
+.body h4{
+    color:#4d2a1c;
+}
+.body p{
+    padding:20px 0;
+    color:#A05B40;
+}
+@media screen and (max-width:770px){
+    .pillar-grid{
+    grid-template-columns: repeat(2,1fr);
+}
+}
+@media  screen and (max-width:500px) {
+    .pillar-grid{
+    grid-template-columns: repeat(1,1fr);
+}
+}

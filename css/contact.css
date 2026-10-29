@@ -1,0 +1,74 @@
+.herosection{
+    margin:auto;
+    max-width: 700px;
+}
+.contact-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+    margin:50px 0;
+}
+.contact-section .author-details{
+    background-color: white;
+    border-radius: 12px;
+    padding:10px;
+    /* margin: 20px; */
+    max-width:500px;
+}
+.author-details p{
+    padding:20px 14px;
+    max-width: 300px;
+}
+.author-details a{
+    text-decoration: none;
+    color:black
+}
+.author-details button{
+    border:none;
+    padding:12px;
+    border-radius:12px;
+    background-color: #5d1d03c7;
+    color:white;
+}
+.author-details a{
+    color:white;
+}
+.author-details button:hover{
+    background-color: #a43b12b1;
+}
+.contact-section .author-message{
+    background-color: white;
+    border-radius: 12px;
+    padding:10px;
+   max-width:500px;
+}
+.contact-section .form{
+    padding:20px;
+}
+.form label{
+    color:#9c4c2f
+}
+.form input,
+.form textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    outline: none;
+    background-color: #f5d1c4b6;
+    border: none;
+    border-radius: 8px;
+}
+.contact-section button{
+    border:none;
+    padding: 12px;
+    background-color: #5d1d03c7;
+    color:white;
+    border-radius: 12px;
+}
+
+@media  screen and (max-width:500px) {
+    .contact-section{
+    grid-template-columns: repeat(1,1fr);
+}
+}

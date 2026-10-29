@@ -16,6 +16,10 @@
     padding:30px;
     color:#5d1c03;
 }
+.card-content a{
+    /* color:white; */
+    text-decoration: none;
+}
 .crochetitems{
     display: flex;
     justify-content: space-evenly;
