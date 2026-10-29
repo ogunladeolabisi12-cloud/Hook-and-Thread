@@ -1,0 +1,52 @@
+.herosection{
+    margin-top:140px;
+    text-align:center;
+}
+.herosection h1{
+    color: #752303;
+}
+.herosection p{
+    padding:12px;
+    font-size:20px;
+    max-width: 600px;
+    color: #752303b1;
+    margin:auto;
+}
+.herosection .herosection-p{
+    padding:30px;
+    color:#5d1c03;
+}
+.crochetitems{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#ffb499a4 ;
+    border-radius: 12px;
+    margin:20px;
+    padding:40px;
+}
+
+.crochetitems-content p{
+    max-width:600px;
+    padding-top:20px;
+    font-size:20px; 
+    color:#634b43; 
+}
+.crochetitems button{
+    border: none;
+    border-radius: 12px;
+    padding:12px;
+    background-color: #752303;
+    color:white;
+    margin-top:12px;
+}
+@media screen and (max-width:770px) {
+    .crochetitems{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:500px){
+    .crochetitems{
+        flex-direction: column;
+    }
+}
