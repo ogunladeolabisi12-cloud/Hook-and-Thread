@@ -9,7 +9,8 @@
     width:100%;
 }
 .herosection-content h1{
-    font-size: 50px;
+    font-size: 40px;
+    color:#451e0ddd;
 }
 .herosection-content p{
     padding:12px 0;
@@ -20,7 +21,7 @@
     background-color: #A05B40;
     padding:12px 36px;
     border-radius: 8px;
-    margin: 12px;    
+    margin: 12px 0;
 }
 .herosection-content a{
     text-decoration: none;
@@ -35,7 +36,7 @@
     color: white;
     padding:12px 36px;
     border-radius: 8px;
-    margin: 12px;
+    margin: 12px 0;
 }
 .herosection-content .btn2:hover{
      background-color: rgb(190, 136, 115);
@@ -58,13 +59,13 @@
 }
 .blog-content p{
     color:#A05B40;
-    max-width:500px;
+    max-width:400px;
     margin:auto;
     font-size: 18px;
 }
 .blog-content h2{
     color:#452315;
-    font-size: 36px;
+    font-size: 30px;
 }
 .blog-card{
     flex:1;
@@ -147,8 +148,7 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    gap:40px;
+    gap:20px;
 }
 .article img{
     width:100%;
@@ -160,7 +160,7 @@
 }
 .article-content p{
     padding: 12px 0;
-    color: rgb(80, 80, 80);
+    color: #6f3e2b;
 }
 .article-content button{
     border:none;
@@ -173,13 +173,6 @@
 .article-content button:hover{
     background-color:#77412b;
 }
-.article-content a{
-    color:#55200A;
-    text-decoration: none;
-}
-.article-content a:hover{
-    text-decoration: underline;
-}
 .article-contact{
     text-align:center;
     background-color: #edbaa981;
@@ -187,10 +180,10 @@
     border-bottom: 1px solid rgb(184, 182, 182);
 }
 .article-contact h2{
-    font-size: 40px;
+    font-size: 30px;
 }
 .article-contact p{
-    padding:20px;
+    padding:15px;
     font-size: 20px;
     max-width:500px;
     margin: auto;
@@ -234,7 +227,7 @@
         flex-direction:column;
     }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:480px){
     .nav-links{
         display:none;
     }
@@ -252,6 +245,9 @@
     }
     .blog-info button{
         margin-top:12px;
+    }
+    .article{
+        flex-direction: column;
     }
     .article-contact button{
         padding:8px 95px;

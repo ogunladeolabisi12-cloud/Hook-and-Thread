@@ -39,10 +39,10 @@ footer.innerHTML = `
         <div class="footer-content2">
             <h3>QUICK LINKS</h3>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Collections</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Contact Us</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="collection.html">Collections</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </div>
         <div class="footer-content3">
@@ -64,7 +64,7 @@ aside.innerHTML = `
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="collection.html">Collections</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
     </ul>
 `;
